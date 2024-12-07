@@ -3,7 +3,7 @@ package StepDefinations;
 
 
 
-import static org.junit.Assert.assertTrue;
+//import static org.junit.Assert.assertTrue;
 import static org.testng.Assert.assertTrue;
 
 import java.time.Duration;
@@ -26,7 +26,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import junit.framework.Assert;
+//import junit.framework.Assert;
 
 public class LoginPageStepDefination extends PageAction {
 	public static WebDriver driver=null;
