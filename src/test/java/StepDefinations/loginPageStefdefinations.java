@@ -27,6 +27,7 @@ public class loginPageStefdefinations {
 		System.out.println(e.getCssValue("background-color")+System.getProperty("usr.dir")+File.separator+"ts.png");
 	    File f=e.getScreenshotAs(OutputType.FILE);
 	    FileUtils.copyFile(f, new File(System.getProperty("user.dir")+File.separator+"ts.png"));
+	    driver.close();
 	}
 	@When("user enters valid credentials")
 	public void user_enters_valid_credentials() {
